@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: Design Document
+
+format:
+  html:
+    theme: light

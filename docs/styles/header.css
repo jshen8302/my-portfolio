@@ -200,12 +200,70 @@ p {
   width: 100%;
   height: 100vh;
   position: relative;
-  overflow: hidden;
+  background-color: rgb(51, 60, 75);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.blue-rectangle {
+  background-color: rgb(30, 30, 120);
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+}
+
+.design-text-container {
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+
+
+  
+}
+
+.design-text {
+  margin: 0;
+  font-size: 300px;
+  z-index: 8;
+}
+
+.notes-text-container {
+  position: absolute;
+  z-index: -1;
+  margin: 0;
+  bottom: -250px;
+  right: -200px;
+  font-size: 300px;
+  background-color: rgb(128, 97, 230);
+
+
+}
+
+
+.notes-text {
+  margin: 0;
+  z-index: 2;
+}
+
+.top-section {
+  flex: 3;
+  z-index: 10;
+}
+
+.bottom-section {
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(51, 60, 75);
-  z-index: 1;
+  font-size: 100px;
 
 }
 

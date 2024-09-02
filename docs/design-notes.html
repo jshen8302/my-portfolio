@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Design Document – design-notes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="portfolio-notes" class="level1">
+<h1>Portfolio Notes</h1>
+<section id="portfolio-1-adam-warren-httpsadamw.uk" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-1-adam-warren-httpsadamw.uk">Portfolio 1: [Adam Warren] https://adamw.uk/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>Very concise and to the point</li>
+<li>Not overwhelming/cluttered</li>
+<li>Includes his own hobbies and interests</li>
+<li>I really enjoy the drop down menu layout of his projects. Other portfolios I have seen may lay out the projects in a grid format. However, the drop down layout allows all the projects to stack on top of eachother which condenses the screen and allows the user to choose which ones to want to focus on more.</li>
+<li>Portfolio gives a friendly and casual feeling</li>
+</ul>
+<p><strong>Additional Notes:</strong></p>
+</section>
+<section id="portfolio-2-zach-jordan-httpswww.zachjordan.io" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-2-zach-jordan-httpswww.zachjordan.io">Portfolio 2: [Zach Jordan] https://www.zachjordan.io/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>Fun easter egg where if you click on his picture he will get a pair of glasses</li>
+<li>Other interactive elements
+<ul>
+<li>Hovering over certain containers will change color</li>
+<li>Scrolling down will cause another navigation bar to appear</li>
+</ul></li>
+<li>Cohesive color scheme used throughout</li>
+<li>Header at top allows user to avoid scrolling and automatically takes you to the section on the page</li>
+</ul>
+<p><strong>Additional Notes:</strong></p>
+<ul>
+<li>Maybe too much text in certain sections, especially when the website is fullscreen on a larger monitor
+<ul>
+<li>Padding to make content more centered?</li>
+</ul></li>
+</ul>
+</section>
+<section id="portfolio-3-shiyun-lu-httpswww.shiyunlu.com" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-3-shiyun-lu-httpswww.shiyunlu.com">Portfolio 3: [Shiyun Lu] https://www.shiyunlu.com/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>Fun little interactive cluster of 3d rendered spheres that are propelled by your mouse</li>
+<li>Landing page is straightforward despite interactive background</li>
+<li>Name is presented in large font size</li>
+<li>Includes two-word descriptions of who they are below the name
+<ul>
+<li>The descriptions also alternate with mouse interaction</li>
+</ul></li>
+<li>Some people on reddit said the menu seems confusing, but I really like it
+<ul>
+<li>Menu icon is easy to find on the home page</li>
+<li>Menu is honestly very creative and fun to me with each container being highlighted and expanding when the user hovers over</li>
+<li>Unique layout of menu as well with each link to different sections of the portfolio taking up a whole corner of the page</li>
+</ul></li>
+<li>Experiments Section
+<ul>
+<li>Cool index/sidebar that organizes their “experiments” or projects</li>
+<li>Projects seem to be organized from most recent</li>
+<li>Projects are also embedded so user does not have to click on a separate link to view them
+<ul>
+<li>Allows a more immersive experience</li>
+</ul></li>
+<li>Projects also have keywords at the top expressing which languages/frameworks were used and based on</li>
+</ul></li>
+<li>About Section
+<ul>
+<li>Unlike other sections, very simple, which honestly is a nice contrast</li>
+<li>Gives a bit more down-to-earth vibe</li>
+</ul></li>
+</ul>
+<p>Additional Notes:</p>
+<ul>
+<li>One of my favorite portfolios
+<ul>
+<li>Leaves a lasting impact</li>
+<li>Super unique layout</li>
+<li>Very sophisticated yet fun</li>
+</ul></li>
+</ul>
+</section>
+<section id="portfolio-4-yuta-abe-httpsyuta-abe.com" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-4-yuta-abe-httpsyuta-abe.com">Portfolio 4: [Yuta Abe] https://yuta-abe.com/</h2>
+<ul>
+<li>First intiial thoughts: this is on another tier of portfolios</li>
+<li>Super simple yet <em>impactful</em> landing page
+<ul>
+<li>Fun little 3d render that moves with your mouse (similar to the previous ones)</li>
+<li>Name in huuuuuuge letters</li>
+<li>Small little greeting in bottom left which uses very plain text but shows the creator isn’t always needing to be too fancy</li>
+</ul></li>
+<li>Elements move as you scroll down or up on the page
+<ul>
+<li>Elements positions are set to adjust according to fixed px heights?</li>
+</ul></li>
+<li>Cute little animated banner with emojis that says “welcome to portfolio”</li>
+<li>Clicking on a project includes a super smooth and seamless transition to a different page that makes it seem like the webpage did not need to “load” anything
+<ul>
+<li>Helps immersion</li>
+</ul></li>
+<li>Despite the technicality: straightforward portfolio with 3 main and <em>clear</em> sections:
+<ul>
+<li>Welcome page</li>
+<li>Web-dev projects</li>
+<li>Final farewell/get-in-touch page</li>
+</ul></li>
+</ul>
+<p><strong>Additional Notes:</strong></p>
+<ul>
+<li>Super technical and sophisticated portfolio that also manages not to take itself too seriously</li>
+</ul>
+</section>
+<section id="portfolio-5-jonathan-trevino-httpswww.yeahimjt.me" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-5-jonathan-trevino-httpswww.yeahimjt.me">Portfolio 5: [Jonathan Trevino] https://www.yeahimjt.me/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>Very simple design, not too overwhelming</li>
+<li>Navbar at top actually does not extend to the edges of the screen when in full screen
+<ul>
+<li>Makes the content still remain condensed and not too spread out when the page has a high px width</li>
+</ul></li>
+<li>Navbar does not take user to a different page and scrolls down instead to the designated section</li>
+<li>Cute avatar
+<ul>
+<li>Animated gestures</li>
+<li>Head follows mouse movements</li>
+</ul></li>
+<li>Really like how the projects are displayed
+<ul>
+<li>Quick simple description</li>
+<li>Highlights key coding skills used</li>
+<li>Small little image that gives a sneak peak at the project without having to actually click on it</li>
+</ul></li>
+</ul>
+</section>
+<section id="portfolio-6-guillaume-reygner-httpsguillaumereygner.fr" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-6-guillaume-reygner-httpsguillaumereygner.fr">Portfolio 6: [Guillaume Reygner] https://guillaumereygner.fr/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>Super unique and creative portfolio layout
+<ul>
+<li>Who doesn’t love terminal?</li>
+</ul></li>
+<li>Changeable themes
+<ul>
+<li>You can customize the portfolio with different themes</li>
+</ul></li>
+</ul>
+<p><strong>Additional Notes:</strong></p>
+<ul>
+<li>Super fun concept and project,</li>
+<li>I understand it is quite a faithful remake of the terminal, however it would have been cool to see maybe if somehow images or colors or other elements could have been embedded to make certain sections more engaging such as the projects section. Instead, its just plaintext and ends up being a little bit too wordy</li>
+<li>Perhaps allow the terminal to run another mini program for fun?</li>
+<li>Still who doesn’t love terminal</li>
+</ul>
+</section>
+<section id="portfolio-7-gabidev-httpswww.gabidesign.uk" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-7-gabidev-httpswww.gabidesign.uk">Portfolio 7: [GabiDev] https://www.gabidesign.uk/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>I really like the color palettes they use for their text</li>
+<li>Certain words or letters are highlighted by using a differentiating color</li>
+<li>Nice simple projects of other small little apps/websites she has designed that I could work on next to include in my own portfolio while gaining more webdev experience</li>
+</ul>
+<p><strong>Additional Notes:</strong></p>
+<ul>
+<li>Someone on reddit said they were a copycat? idk</li>
+<li>Under construction</li>
+</ul>
+</section>
+<section id="portfolio-8-eric-risher-httpsericrisher.com" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-8-eric-risher-httpsericrisher.com">Portfolio 8: [Eric Risher] https://ericrisher.com/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>Nice simple landing page</li>
+<li>Under his name, he’s got a little typing animation that types and deletes quick tidbits about him</li>
+<li>Project section has an image for each corresponding project to give a glimpse</li>
+<li>Nice little contact section at the bottom that allows a user to send a direct message
+<ul>
+<li>Kind of like the ones I see when you are looking at a restaurants website or a small company</li>
+</ul></li>
+</ul>
+<p><strong>Additional Notes:</strong></p>
+<ul>
+<li>I am against grid like displays for projects</li>
+</ul>
+</section>
+<section id="portfolio-9-arngren-httpsarngren.net" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-9-arngren-httpsarngren.net">Portfolio 9: [ARNGREN] https://arngren.net/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>Modern design</li>
+<li>Intuitive navigation</li>
+<li>Page is not cluttered</li>
+</ul>
+<p><strong>Additional Notes:</strong></p>
+<ul>
+<li>Honestly, this is the ideal UI/UX design all web developers should strive for</li>
+</ul>
+</section>
+<section id="portfolio-10-gregory-httpsgkoberger.com" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio-10-gregory-httpsgkoberger.com">Portfolio 10: [Gregory] https://gkoberger.com/</h2>
+<p><strong>Design Elements I Like:</strong></p>
+<ul>
+<li>This portfolio kinda brings us full circle, using a similar layout to the first portfolio on this document</li>
+<li>I like the padding on the website making the content centered and more focused</li>
+<li>Nice little timeline design to display projects</li>
+<li>Very colorful set of projects</li>
+</ul>
+<p><strong>Additional Notes:</strong></p>
+<ul>
+<li>Unlike the first one, which gave off a more amateur vibe, this one is just as simple but gives a completely different feel.</li>
+<li>Not flashy but gives a sense that this person is extremely confident in what they are doing</li>
+<li>This guy founded readme? Like README.md?</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

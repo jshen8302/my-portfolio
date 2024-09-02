@@ -1,0 +1,167 @@
+# Portfolio Notes
+
+## Portfolio 1: [Adam Warren] https://adamw.uk/
+
+**Design Elements I Like:**
+
+- Very concise and to the point
+- Not overwhelming/cluttered
+- Includes his own hobbies and interests
+- I really enjoy the drop down menu layout of his projects. Other portfolios I have seen may lay out the projects in a grid format. However, the drop down layout allows all the projects to stack on top of eachother which condenses the screen and allows the user to choose which ones to want to focus on more.
+- Portfolio gives a friendly and casual feeling
+
+**Additional Notes:**
+
+## Portfolio 2: [Zach Jordan] https://www.zachjordan.io/
+
+**Design Elements I Like:**
+
+- Fun easter egg where if you click on his picture he will get a pair of glasses
+- Other interactive elements
+    - Hovering over certain containers will change color
+    - Scrolling down will cause another navigation bar to appear
+- Cohesive color scheme used throughout
+- Header at top allows user to avoid scrolling and automatically takes you to the section on the page
+
+**Additional Notes:**
+
+- Maybe too much text in certain sections, especially when the website is fullscreen on a larger monitor
+    - Padding to make content more centered?
+
+## Portfolio 3: [Shiyun Lu] https://www.shiyunlu.com/
+
+**Design Elements I Like:**
+
+- Fun little interactive cluster of 3d rendered spheres that are propelled by your mouse
+- Landing page is straightforward despite interactive background
+- Name is presented in large font size
+- Includes two-word descriptions of who they are below the name
+    - The descriptions also alternate with mouse interaction
+- Some people on reddit said the menu seems confusing, but I really like it
+    - Menu icon is easy to find on the home page
+    - Menu is honestly very creative and fun to me with each container being highlighted and expanding when the user hovers over
+    - Unique layout of menu as well with each link to different sections of the portfolio taking up a whole corner of the page
+- Experiments Section
+    - Cool index/sidebar that organizes their "experiments" or projects
+    - Projects seem to be organized from most recent
+    - Projects are also embedded so user does not have to click on a separate link to view them
+        - Allows a more immersive experience
+    - Projects also have keywords at the top expressing which languages/frameworks were used and based on
+- About Section
+    - Unlike other sections, very simple, which honestly is a nice contrast
+    - Gives a bit more down-to-earth vibe
+
+Additional Notes:
+
+- One of my favorite portfolios
+    - Leaves a lasting impact
+    - Super unique layout
+    - Very sophisticated yet fun
+
+## Portfolio 4: [Yuta Abe] https://yuta-abe.com/
+
+- First intiial thoughts: this is on another tier of portfolios
+- Super simple yet *impactful* landing page
+    - Fun little 3d render that moves with your mouse (similar to the previous ones)
+    - Name in huuuuuuge letters
+    - Small little greeting in bottom left which uses very plain text but shows the creator isn't always needing to be too fancy
+- Elements move as you scroll down or up on the page
+    - Elements positions are set to adjust according to fixed px heights?
+- Cute little animated banner with emojis that says "welcome to portfolio"
+- Clicking on a project includes a super smooth and seamless transition to a different page that makes it seem like the webpage did not need to "load" anything
+    - Helps immersion
+- Despite the technicality: straightforward portfolio with 3 main and *clear* sections:
+    - Welcome page
+    - Web-dev projects
+    - Final farewell/get-in-touch page
+
+**Additional Notes:**
+
+- Super technical and sophisticated portfolio that also manages not to take itself too seriously
+
+## Portfolio 5: [Jonathan Trevino] https://www.yeahimjt.me/
+
+**Design Elements I Like:**
+
+- Very simple design, not too overwhelming
+- Navbar at top actually does not extend to the edges of the screen when in full screen
+    - Makes the content still remain condensed and not too spread out when the page has a high px width
+- Navbar does not take user to a different page and scrolls down instead to the designated section
+- Cute avatar
+    - Animated gestures
+    - Head follows mouse movements
+- Really like how the projects are displayed
+    - Quick simple description
+    - Highlights key coding skills used
+    - Small little image that gives a sneak peak at the project without having to actually click on it
+
+## Portfolio 6: [Guillaume Reygner] https://guillaumereygner.fr/
+
+**Design Elements I Like:**
+
+- Super unique and creative portfolio layout
+    - Who doesn't love terminal?
+- Changeable themes
+    - You can customize the portfolio with different themes
+
+**Additional Notes:**
+
+- Super fun concept and project,
+- I understand it is quite a faithful remake of the terminal, however it would have been cool to see maybe if somehow images or colors or other elements could have been embedded to make certain sections more engaging such as the projects section. Instead, its just plaintext and ends up being a little bit too wordy
+- Perhaps allow the terminal to run another mini program for fun?
+- Still who doesn't love terminal
+
+## Portfolio 7: [GabiDev] https://www.gabidesign.uk/
+
+**Design Elements I Like:**
+
+- I really like the color palettes they use for their text
+- Certain words or letters are highlighted by using a differentiating color
+- Nice simple projects of other small little apps/websites she has designed that I could work on next to include in my own portfolio while gaining more webdev experience
+
+**Additional Notes:**
+
+- Someone on reddit said they were a copycat? idk
+- Under construction
+
+## Portfolio 8: [Eric Risher] https://ericrisher.com/
+
+**Design Elements I Like:**
+
+- Nice simple landing page
+- Under his name, he's got a little typing animation that types and deletes quick tidbits about him
+- Project section has an image for each corresponding project to give a glimpse
+- Nice little contact section at the bottom that allows a user to send a direct message
+    - Kind of like the ones I see when you are looking at a restaurants website or a small company
+
+**Additional Notes:**
+
+- I am against grid like displays for projects
+
+
+## Portfolio 9: [ARNGREN] https://arngren.net/
+
+**Design Elements I Like:**
+
+- Modern design
+- Intuitive navigation
+- Page is not cluttered
+
+**Additional Notes:**
+
+- Honestly, this is the ideal UI/UX design all web developers should strive for
+
+## Portfolio 10: [Gregory] https://gkoberger.com/
+
+**Design Elements I Like:**
+
+- This portfolio kinda brings us full circle, using a similar layout to the first portfolio on this document
+- I like the padding on the website making the content centered and more focused
+- Nice little timeline design to display projects
+- Very colorful set of projects
+
+**Additional Notes:**
+
+- Unlike the first one, which gave off a more amateur vibe, this one is just as simple but gives a completely different feel.
+- Not flashy but gives a sense that this person is extremely confident in what they are doing
+- This guy founded readme? Like README.md? 
