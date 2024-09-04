@@ -176,10 +176,7 @@ main {
 
 .my-picture {
   object-fit: cover;
-  position: absolute;
-  bottom: -110px;
-  margin-right: 10px;
-  max-height: 804.94px;
+  
 
 
 
@@ -221,32 +218,20 @@ main {
   }
 
 
-  .welcome-section, .about-me-section {
+  .welcome-section {
     flex-direction: column; /* Stack content vertically on smaller screens */
     padding-left: 5%;
     padding-right: 5%;
   }
 
 
-  .about-me-section {
-    flex-direction: column-reverse;
-  }
-
-  .welcome-text-container, .binary-picture-container, .about-me-text-container, .my-picture-container {
+  .welcome-text-container, .binary-picture-container {
     max-width: 100%; /* Ensure the containers take full width */
     width: 100%;
     height: 50%;
     align-items: center;
   }
 
-  .my-picture-container {
-
-  }
-
-  .my-picture {
-    position: absolute;
-    bottom: -70%;
-  }
 
   .level-one-text {
     font-size: 60px; /* Smaller font size for smaller screens */
@@ -255,7 +240,31 @@ main {
   .level-two-text {
     font-size: 28px; /* Adjust to fit better on smaller screens */
   }
+
+  .about-me-section {
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .about-me-section {
+    flex-direction: column-reverse;
+  }
+  .about-me-text-container, .my-picture-container {
+    max-width: 100%; /* Ensure the containers take full width */
+    width: 100%;
+    height: 50%;
+    align-items: center;
+
+  }
+  .my-picture {
+    width: 60%;
+    min-width: 60%;
+  }
 }
+
+
+
+
 
 
 
