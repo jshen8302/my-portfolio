@@ -7,24 +7,28 @@ body {
 
 p {
   font-family: 'VT323', sans-serif;
+  margin: 0;
+  flex-shrink: 0;
 }
 
-.hero-container {
+main {
+
+}
+
+.hero-container, .about-me-section-container {
   width: 100%;
   height: 100vh;
   position: relative;
-  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  z-index: -100;
 
   
-
 }
 
-.intro-backdrop {
 
-}
 
 .space-background {
   position: absolute;
@@ -32,46 +36,46 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../assets/spacebg.jpeg);
-  background-size: cover;
+  background-image: url(../assets/pixel-night-bg.jpg);
   background-position: center;
   background-attachment: fixed;
+  background-size: auto;
   z-index: -1;
+  opacity: 40%;
 
   
 }
 
-.minecraft-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/minecraft_bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  z-index: -1;
 
-}
-
-.header-container {
+header {
   display: flex;
   width: 100%;
-  height: 80px;
-  background-color: rgb(12, 41, 105);
+  height: 100px;
+  z-index: 100;
+  position: fixed;
+
+  
+}
+
+nav {
+  
+  background-color: transparent;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  z-index: 1;
+  flex: 1;
+  padding-left: 5%;
+  padding-right: 5%;
   
+  
+}
 
+main {
+  
 }
 
 .pfp-container {
   color: white;
-
-
 
 }
 
@@ -79,106 +83,119 @@ p {
   object-fit: cover;
   height: 50px;
   border-radius: 25px;
-  margin-left: 15px;
 
 }
 
 .navbar {
   color: white;
-  margin-right: 20px;
+
+  flex-shrink: 0;
 
 }
 
 .navbar-link {
   color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'VT323', sans-serif;
+  font-size: 35px;
 }
 
-.welcome-section {
-  height: 400px;
-  width: 600px;
-
+.welcome-section, .about-me-section {
   display: flex;
-  margin-top: 200px;
+  flex: 1;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.about-me-section-container {
+  background-color: rgb(14, 29, 68);  
 }
 
 .welcome-text-container {
   flex: 1;
-
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: 'VT323';
+
+
 
 
 }
 
 .level-one-text {
   color: white;
-  font-size: 30px;
+  font-size: 88px;
+  padding-left: 12%;
+
+  
+
 
 }
 .level-two-text {
   color: white;
-  font-size: 20px;
+  font-size: 40px;
+  padding-left:12%;
+
+
 
 }
 
 .binary-picture-container {
   flex: 1;
-
+  max-width: 400px;
   display: flex;
   justify-content: center;
-
-}
-.binary-picture {
-  width: 260px;
-  object-fit: cover;
-}
-
-.section-2 {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  display: flex;
   align-items: center;
-  justify-content: center;
+
+
   
 
+}
 
- 
+.binary-picture {
+  object-fit: cover;
 
 }
 
-.about-me-container {
-  height: 400px;
-  width: 600px;
-  display: flex;
-
-}
 
 .my-picture-container {
   flex: 1;
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+
 
 }
 
 .my-picture {
   object-fit: cover;
-  width: 300px;
-  justify-content: center;
-  height: 400px;
+  position: absolute;
+  bottom: -110px;
+  margin-right: 10px;
+  max-height: 804.94px;
+
+
+
+
+
 }
+
+
 
 .about-me-text-container {
   flex: 1;
-
-  overflow-wrap: break-word;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
-
+  min-width: 375px;
 
 }
 
@@ -196,76 +213,51 @@ p {
 
 }
 
-.section-3 {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background-color: rgb(51, 60, 75);
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-
-}
-
-.blue-rectangle {
-  background-color: rgb(30, 30, 120);
-  top: 0px;
-  left: 0px;
-  width: 800px;
-  height: 300px;
-  position: absolute;
-  z-index: -1;
-}
-
-.design-text-container {
-  color: white;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  margin: 0;
-  padding: 0;
+@media (max-width: 1189px) {
 
 
-  
-}
-
-.design-text {
-  margin: 0;
-  font-size: 300px;
-  z-index: 8;
-}
-
-.notes-text-container {
-  position: absolute;
-  z-index: -1;
-  margin: 0;
-  bottom: -250px;
-  right: -200px;
-  font-size: 300px;
-  background-color: rgb(128, 97, 230);
+  .navbar-link {
+    font-size: 25px;
+  }
 
 
+  .welcome-section, .about-me-section {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+
+  .about-me-section {
+    flex-direction: column-reverse;
+  }
+
+  .welcome-text-container, .binary-picture-container, .about-me-text-container, .my-picture-container {
+    max-width: 100%; /* Ensure the containers take full width */
+    width: 100%;
+    height: 50%;
+    align-items: center;
+  }
+
+  .my-picture-container {
+
+  }
+
+  .my-picture {
+    position: absolute;
+    bottom: -70%;
+  }
+
+  .level-one-text {
+    font-size: 60px; /* Smaller font size for smaller screens */
+  }
+
+  .level-two-text {
+    font-size: 28px; /* Adjust to fit better on smaller screens */
+  }
 }
 
 
-.notes-text {
-  margin: 0;
-  z-index: 2;
-}
-
-.top-section {
-  flex: 3;
-  z-index: 10;
-}
-
-.bottom-section {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 100px;
-
-}
 
 
 
