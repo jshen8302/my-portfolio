@@ -8,44 +8,11 @@ body {
 p {
   font-family: 'VT323', sans-serif;
   margin: 0;
-  flex-shrink: 0;
 }
 
 main {
 
 }
-
-.hero-container, .about-me-section-container {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: black;
-  z-index: -100;
-
-  
-}
-
-
-
-.space-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/pixel-night-bg.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: auto;
-  z-index: -1;
-  opacity: 40%;
-
-  
-}
-
 
 header {
   display: flex;
@@ -74,6 +41,7 @@ main {
   
 }
 
+
 .pfp-container {
   color: white;
 
@@ -101,169 +69,99 @@ main {
   font-size: 35px;
 }
 
-.welcome-section, .about-me-section {
+.hero-container {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  z-index: -201;
+
+  position: relative;
+
+
+  
+}
+
+
+
+.space-background {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/pixel-night-bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  z-index: -200;
+  opacity: 40%;
+  position: absolute;
+  
+
+  
+}
+
+.welcome-section-container {
+  flex: 1;
+  max-width: 1200px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-section {
   display: flex;
   flex: 1;
   justify-content: center;
-  margin-left: 200px;
-  margin-right: 200px;
-
+  height: 100vh;
 }
 
-.about-me-section-container {
-  background-color: rgb(14, 29, 68);  
+.welcome-text-container,
+.binary-picture-container {
+  flex: 1; /* Ensures both containers take up equal space */
+  display: flex;
+  max-width: 50%; /* Both containers take up half of the available space */
+}
+
+.binary-picture-container {
+  justify-content: center;
+  align-items: center;
+
 }
 
 .welcome-text-container {
-  flex: 1;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Column layout for the text */
+  text-align: left;
+}
 
+.text-box {
+}
 
-
-
+.binary-picture-container {
 }
 
 .level-one-text {
   color: white;
-  font-size: 88px;
-  padding-left: 12%;
-
-  
-
-
+  font-size: 80px;
+  text-align: left;
 }
+
 .level-two-text {
   color: white;
   font-size: 40px;
-  padding-left:12%;
-
-
-
-}
-
-.binary-picture-container {
-  flex: 1;
-  max-width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-  
-
+  text-align: left;
 }
 
 .binary-picture {
   object-fit: cover;
-
 }
 
 
-.my-picture-container {
-  flex: 1;
-  max-width: 400px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-
-
-}
-
-.my-picture {
-  object-fit: cover;
-  
-
-
-
-
-
-}
-
-
-
-.about-me-text-container {
-  flex: 1;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 375px;
-
-}
-
-.level-one-text-pt1{
-  color: white;
-  font-size: 30px;
-  background-color: rgb(0,0,255,0.5);
-
-}
-
-.level-two-text-pt2 {
-  color: white;
-  font-size: 20px;
-  background-color: rgb(0,0,255,0.5);
-
-}
-
-@media (max-width: 1189px) {
-
-
-  .navbar-link {
-    font-size: 25px;
-  }
-
-
-  .welcome-section {
-    flex-direction: column; /* Stack content vertically on smaller screens */
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-
-  .welcome-text-container, .binary-picture-container {
-    max-width: 100%; /* Ensure the containers take full width */
-    width: 100%;
-    height: 50%;
-    align-items: center;
-  }
-
-
-  .level-one-text {
-    font-size: 60px; /* Smaller font size for smaller screens */
-  }
-
-  .level-two-text {
-    font-size: 28px; /* Adjust to fit better on smaller screens */
-  }
-
-  .about-me-section {
-    flex-direction: column;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .about-me-section {
-    flex-direction: column-reverse;
-  }
-  .about-me-text-container, .my-picture-container {
-    max-width: 100%; /* Ensure the containers take full width */
-    width: 100%;
-    height: 50%;
-    align-items: center;
-    overflow: visible;
-
-  }
-  .my-picture {
-    width: 70%;
-    overflow: visible;
-    bottom: 0;
-    position: absolute;
-  }
-}
 
 
 
