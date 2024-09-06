@@ -213,16 +213,14 @@ main {
   }
 
   .navbar {
-    background-color: white;
+  
 
   }
   .navbar-link {
     color: white;
-    margin-left: 1%;
-    margin-right: 1%;
     font-family: 'VT323', sans-serif;
     font-size: 1.5rem;
-    background-color: blue;
+    margin-left: 5px;
   }
 
 }
