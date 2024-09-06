@@ -200,7 +200,6 @@ nav {
 .about-me-text-container {
   align-items: center;
   text-align: left;
-  background-color: red;
 }
 
 .about-me-text-container .level-one-text {
@@ -216,7 +215,6 @@ nav {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background-color: green;
 
 }
 
@@ -224,7 +222,7 @@ nav {
   position: absolute;
   object-fit: contain;
   width: 100%;
-  transform: translateY(20%);
+  transform: translateY(10%);
   
 
 }
@@ -258,12 +256,12 @@ nav {
     justify-content: center;
     align-items: center;
     height: auto; /* Let height be determined by content */
-    padding-top: 20vh;
   }
 
   .about-me-section {
     flex-direction: column-reverse;
     height: 100vh;
+    padding-top: 20vh;
   }
 
   .welcome-text-container,
@@ -295,7 +293,6 @@ nav {
   .my-picture-container {
     max-width: 80%;
 
-    background-color: blue;
 
 
   }
@@ -305,7 +302,7 @@ nav {
     height: 100%;
 
     position: static;
-    background-color: red;
+
 
   
 
