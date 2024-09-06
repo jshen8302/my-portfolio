@@ -82,7 +82,6 @@ main {
   align-items: center;
   background-color: black;
   z-index: -201;
-
   position: relative;
 
 
@@ -112,6 +111,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .welcome-section {
@@ -132,6 +132,8 @@ main {
   justify-content: center;
   align-items: center;
 
+  overflow: hidden;
+
 
 
 
@@ -140,6 +142,7 @@ main {
 .binary-picture {
   object-fit: cover;
   width: 100%;
+
 }
 
 .welcome-text-container {
@@ -148,6 +151,9 @@ main {
   flex-direction: column; /* Column layout for the text */
   text-align: left;
 
+
+  
+
 }
 
 .text-box {
@@ -155,15 +161,90 @@ main {
 
 .level-one-text {
   color: white;
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-align: left;
 }
 
 .level-two-text {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   text-align: left;
 }
+
+/* Section 2 */
+.section-2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 29, 68);
+  z-index: -201;
+  position: relative;
+
+}
+
+.about-me-section-container {
+  flex: 1;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-section {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+
+
+}
+
+.about-me-text-container, .my-picture-container {
+  display: flex;
+  flex: 1;
+  max-width: 30%;
+}
+
+.about-me-text-container {
+  align-items: center;
+  text-align: left;
+
+}
+
+.about-me-text-container .level-one-text {
+  font-size: 2rem;
+}
+
+.about-me-text-container .level-two-text {
+  font-size: 1.25rem;
+}
+
+.my-picture-container {
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.my-picture {
+  position: absolute;
+  object-fit: cover;
+  width: 150%;
+  transform: translateY(20%);
+  
+
+}
+
+
+
+
+
+
+
+
+
 
 
 /* Large desktops and wide screens */
@@ -180,39 +261,67 @@ main {
 
 
 @media (max-width: 1024px) {
-  .welcome-section {
+  .welcome-section,.about-me-section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto; /* Let height be determined by content */
-  
+  }
+
+  .about-me-section {
+    flex-direction: column-reverse;
+    height: 100vh;
   }
 
   .welcome-text-container,
-  .binary-picture-container {
-    max-width: 100%; /* Full width in column layout */
+  .binary-picture-container,
+  .about-me-text-container,
+  .my-picture-container {
+    max-width: 100%;
     text-align: center;
 
   }
 
-  .welcome-text-container {
+  .welcome-text-container{
+    font-size: 
+  }
 
+  .about-me-text-container {
+    max-width: 70%;
+    padding-top: 5%;
   }
 
   .level-one-text {
-    font-size: 3.6rem;
+    font-size: 3.0rem;
   }
   .level-two-text {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .binary-picture-container {
 
+
   }
 
-  .binary-picture {
-    width: 80%;
+  .binary-picture{
+    width: 70%;
   }
+
+  .my-picture-container {
+    max-width: 80%;
+
+
+  }
+
+  .my-picture {
+    width: 120%;
+
+    position: static;
+    height:140%;
+  
+
+  }
+
 
   header {
     height: 80px;
@@ -287,6 +396,18 @@ main {
     width: 70%;
   }
 
+
+
+  .about-me-text-container .level-one-text {
+    font-size: 1.50rem;
+
+  }
+
+  .about-me-text-container .level-two-text {
+    font-size: 1rem;
+    
+  }
+
   header {
     height: 80px;
   
@@ -342,10 +463,10 @@ main {
   }
 
   .level-one-text {
-    font-size: 2.4rem;
+    font-size: 3.0rem;
   }
   .level-two-text {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .binary-picture-container {
@@ -353,7 +474,7 @@ main {
   }
 
   .binary-picture {
-    width: 65%;
+    width: 70%;
   }
 
   header {
