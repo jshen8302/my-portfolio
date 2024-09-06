@@ -14,9 +14,7 @@ p {
   margin: 0;
 }
 
-main {
 
-}
 
 header {
   display: flex;
@@ -38,10 +36,6 @@ nav {
   width: 100%;
   padding: 0 30px;
   
-  
-}
-
-main {
   
 }
 
@@ -156,9 +150,6 @@ main {
 
 }
 
-.text-box {
-}
-
 .level-one-text {
   color: white;
   font-size: 4.5rem;
@@ -267,6 +258,7 @@ main {
     justify-content: center;
     align-items: center;
     height: auto; /* Let height be determined by content */
+    padding-top: 20vh;
   }
 
   .about-me-section {
@@ -283,9 +275,6 @@ main {
 
   }
 
-  .welcome-text-container{
-    font-size: 
-  }
 
   .about-me-text-container {
     max-width: 70%;
@@ -298,10 +287,6 @@ main {
     font-size: 1.5rem;
   }
 
-  .binary-picture-container {
-
-
-  }
 
   .binary-picture{
     width: 70%;
@@ -309,6 +294,8 @@ main {
 
   .my-picture-container {
     max-width: 80%;
+
+    background-color: blue;
 
 
   }
@@ -318,6 +305,7 @@ main {
     height: 100%;
 
     position: static;
+    background-color: red;
 
   
 
@@ -343,11 +331,6 @@ main {
     height: 48px;
     border-radius: 24px;
   
-  }
-
-  .navbar {
-  
-
   }
   .navbar-link {
     color: white;
@@ -378,10 +361,6 @@ main {
 
   }
 
-  .welcome-text-container {
-    font-size: 
-  }
-
   .level-one-text {
     font-size: 3.0rem;
   }
@@ -389,9 +368,6 @@ main {
     font-size: 1.5rem;
   }
 
-  .binary-picture-container {
-
-  }
 
   .binary-picture {
     width: 70%;
@@ -409,9 +385,6 @@ main {
     
   }
 
-  .my-picture-container {
-
-  }
 
   .my-picture
 
@@ -434,11 +407,6 @@ main {
     height: 44px;
     border-radius: 22px;
   
-  }
-
-  .navbar {
-  
-
   }
   .navbar-link {
     color: white;
@@ -464,11 +432,6 @@ main {
     text-align: center;
 
   }
-
-  .welcome-text-container {
-    font-size: 
-  }
-
   .level-one-text {
     font-size: 3.0rem;
   }
@@ -476,21 +439,10 @@ main {
     font-size: 1.5rem;
   }
 
-  .binary-picture-container {
-
-  }
-
   .binary-picture {
     width: 70%;
   }
 
-  .my-picture-container {
-
-  }
-
-  .my-picture {
-
-  }
 
   header {
     height: 80px;
@@ -513,10 +465,6 @@ main {
   
   }
 
-  .navbar {
-  
-
-  }
   .navbar-link {
     color: white;
     font-family: 'VT323', sans-serif;
