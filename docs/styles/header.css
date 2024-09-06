@@ -125,7 +125,7 @@ main {
 .binary-picture-container {
   flex: 1; /* Ensures both containers take up equal space */
   display: flex;
-  max-width: 43%; /* Both containers take up half of the available space */
+  max-width: 30%; /* Both containers take up half of the available space */
 }
 
 .binary-picture-container {
@@ -133,10 +133,13 @@ main {
   align-items: center;
 
 
+
+
 }
 
 .binary-picture {
   object-fit: cover;
+  width: 100%;
 }
 
 .welcome-text-container {
@@ -144,6 +147,7 @@ main {
   align-items: center;
   flex-direction: column; /* Column layout for the text */
   text-align: left;
+
 }
 
 .text-box {
@@ -192,14 +196,14 @@ main {
   }
 
   .welcome-text-container {
-    font-size: 
+
   }
 
   .level-one-text {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
   .level-two-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .binary-picture-container {
@@ -207,7 +211,7 @@ main {
   }
 
   .binary-picture {
-    width: 100%;
+    width: 80%;
   }
 
   header {
@@ -249,6 +253,71 @@ main {
 
 /* Tablets (portrait) */
 @media (max-width: 768px) {
+  .welcome-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Let height be determined by content */
+  
+  }
+
+  .welcome-text-container,
+  .binary-picture-container {
+    max-width: 100%; /* Full width in column layout */
+    text-align: center;
+
+  }
+
+  .welcome-text-container {
+    font-size: 
+  }
+
+  .level-one-text {
+    font-size: 3.0rem;
+  }
+  .level-two-text {
+    font-size: 1.5rem;
+  }
+
+  .binary-picture-container {
+
+  }
+
+  .binary-picture {
+    width: 70%;
+  }
+
+  header {
+    height: 80px;
+  
+  }
+  nav {
+    padding: 0 10px;
+
+  }
+
+  .pfp-container {
+    color: white;
+  
+  }
+  
+  .my-pfp {
+    object-fit: cover;
+    height: 44px;
+    border-radius: 22px;
+  
+  }
+
+  .navbar {
+  
+
+  }
+  .navbar-link {
+    color: white;
+    font-family: 'VT323', sans-serif;
+    font-size: 1.2rem;
+
+  }
 }
 
 /* Mobile phones (portrait) */
@@ -284,7 +353,7 @@ main {
   }
 
   .binary-picture {
-    width: 80%;
+    width: 65%;
   }
 
   header {
