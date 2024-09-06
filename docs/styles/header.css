@@ -21,7 +21,7 @@ main {
 header {
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 100px;
   z-index: 100;
   position: fixed;
 
@@ -35,8 +35,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 100%;
+  padding: 0 30px;
   
   
 }
@@ -53,8 +53,8 @@ main {
 
 .my-pfp {
   object-fit: cover;
-  height: 80px;
-  border-radius: 40px;
+  height: 60px;
+  border-radius: 30px;
 
 }
 
@@ -71,7 +71,7 @@ main {
   margin-left: 10px;
   margin-right: 10px;
   font-family: 'VT323', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .hero-container {
@@ -109,9 +109,6 @@ main {
 .welcome-section-container {
   flex: 1;
   max-width: 1200px;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,16 +162,18 @@ main {
 }
 
 
-/* Mobile phones (portrait) */
-@media (max-width: 480px) {
-  
-
+/* Large desktops and wide screens */
+@media (min-width: 1440px) {
+  /* Styles for large screens */
 }
 
-/* Tablets (portrait) */
-@media (max-width: 768px) {
-  /* Styles for tablets */
+/* Laptops and desktops */
+@media (min-width: 1024px) {
+  /* Styles for larger screens */
 }
+
+
+
 
 @media (max-width: 1024px) {
   .welcome-section {
@@ -196,10 +195,11 @@ main {
   }
 
   header {
-    height: 100px;
+    height: 80px;
   
   }
   nav {
+    padding: 0 20px;
 
   }
 
@@ -210,8 +210,8 @@ main {
   
   .my-pfp {
     object-fit: cover;
-    height: 50px;
-    border-radius: 25px;
+    height: 48px;
+    border-radius: 24px;
   
   }
 
@@ -223,21 +223,52 @@ main {
     color: white;
     font-family: 'VT323', sans-serif;
     font-size: 1.5rem;
-    margin-left: 5px;
+
   }
 
 }
 
 
 
-/* Laptops and desktops */
-@media (min-width: 1024px) {
-  /* Styles for larger screens */
+
+/* Tablets (portrait) */
+@media (max-width: 768px) {
 }
 
-/* Large desktops and wide screens */
-@media (min-width: 1440px) {
-  /* Styles for large screens */
+/* Mobile phones (portrait) */
+@media (max-width: 480px) {
+  header {
+    height: 80px;
+  
+  }
+  nav {
+    padding: 0 10px;
+
+  }
+
+  .pfp-container {
+    color: white;
+  
+  }
+  
+  .my-pfp {
+    object-fit: cover;
+    height: 44px;
+    border-radius: 22px;
+  
+  }
+
+  .navbar {
+  
+
+  }
+  .navbar-link {
+    color: white;
+    font-family: 'VT323', sans-serif;
+    font-size: 1.2rem;
+
+  }
+
 }
 
 
