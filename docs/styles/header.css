@@ -151,13 +151,13 @@ main {
 
 .level-one-text {
   color: white;
-  font-size: 80px;
+  font-size: 5rem;
   text-align: left;
 }
 
 .level-two-text {
   color: white;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: left;
 }
 
@@ -180,7 +180,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 150%; /* Let height be determined by content */
+    height: auto; /* Let height be determined by content */
   
   }
 
@@ -192,6 +192,22 @@ main {
   }
 
   .welcome-text-container {
+    font-size: 
+  }
+
+  .level-one-text {
+    font-size: 4rem;
+  }
+  .level-two-text {
+    font-size: 2rem;
+  }
+
+  .binary-picture-container {
+
+  }
+
+  .binary-picture {
+    width: 100%;
   }
 
   header {
@@ -237,6 +253,40 @@ main {
 
 /* Mobile phones (portrait) */
 @media (max-width: 480px) {
+  .welcome-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Let height be determined by content */
+  
+  }
+
+  .welcome-text-container,
+  .binary-picture-container {
+    max-width: 100%; /* Full width in column layout */
+    text-align: center;
+
+  }
+
+  .welcome-text-container {
+    font-size: 
+  }
+
+  .level-one-text {
+    font-size: 2.4rem;
+  }
+  .level-two-text {
+    font-size: 1.2rem;
+  }
+
+  .binary-picture-container {
+
+  }
+
+  .binary-picture {
+    width: 80%;
+  }
+
   header {
     height: 80px;
   
