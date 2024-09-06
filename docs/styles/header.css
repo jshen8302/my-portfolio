@@ -17,7 +17,7 @@ main {
 header {
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 150px;
   z-index: 100;
   position: fixed;
 
@@ -49,13 +49,14 @@ main {
 
 .my-pfp {
   object-fit: cover;
-  height: 50px;
-  border-radius: 25px;
+  height: 80px;
+  border-radius: 40px;
 
 }
 
 .navbar {
   color: white;
+  display: flex;
 
   flex-shrink: 0;
 
@@ -123,13 +124,18 @@ main {
 .binary-picture-container {
   flex: 1; /* Ensures both containers take up equal space */
   display: flex;
-  max-width: 50%; /* Both containers take up half of the available space */
+  max-width: 43%; /* Both containers take up half of the available space */
 }
 
 .binary-picture-container {
   justify-content: center;
   align-items: center;
 
+
+}
+
+.binary-picture {
+  object-fit: cover;
 }
 
 .welcome-text-container {
@@ -140,9 +146,6 @@ main {
 }
 
 .text-box {
-}
-
-.binary-picture-container {
 }
 
 .level-one-text {
@@ -157,8 +160,83 @@ main {
   text-align: left;
 }
 
-.binary-picture {
-  object-fit: cover;
+
+/* Mobile phones (portrait) */
+@media (max-width: 480px) {
+  
+
+}
+
+/* Tablets (portrait) */
+@media (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+@media (max-width: 1024px) {
+  .welcome-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150%; /* Let height be determined by content */
+  
+  }
+
+  .welcome-text-container,
+  .binary-picture-container {
+    max-width: 100%; /* Full width in column layout */
+    text-align: center;
+
+  }
+
+  .welcome-text-container {
+    font-size: 
+  }
+
+  header {
+    height: 100px;
+  
+  }
+  nav {
+
+  }
+
+  .pfp-container {
+    color: white;
+  
+  }
+  
+  .my-pfp {
+    object-fit: cover;
+    height: 50px;
+    border-radius: 25px;
+  
+  }
+
+  .navbar {
+    background-color: white;
+
+  }
+  .navbar-link {
+    color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: 'VT323', sans-serif;
+    font-size: 1.5rem;
+    background-color: blue;
+  }
+
+}
+
+
+
+/* Laptops and desktops */
+@media (min-width: 1024px) {
+  /* Styles for larger screens */
+}
+
+/* Large desktops and wide screens */
+@media (min-width: 1440px) {
+  /* Styles for large screens */
 }
 
 
