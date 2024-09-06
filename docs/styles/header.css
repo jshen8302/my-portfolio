@@ -318,7 +318,7 @@ main {
     width: 120%;
 
     position: static;
-    height:140%;
+    height:100%;
   
 
   }
@@ -408,6 +408,12 @@ main {
     font-size: 1rem;
     
   }
+
+  .my-picture-container {
+
+  }
+
+  .my-picture
 
   header {
     height: 80px;
