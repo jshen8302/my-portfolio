@@ -209,7 +209,7 @@ main {
 .about-me-text-container {
   align-items: center;
   text-align: left;
-
+  background-color: red;
 }
 
 .about-me-text-container .level-one-text {
@@ -225,6 +225,7 @@ main {
   justify-content: center;
   position: relative;
   overflow: hidden;
+  background-color: green;
 
 }
 
@@ -475,6 +476,16 @@ main {
 
   .binary-picture {
     width: 70%;
+  }
+
+  .my-picture-container {
+    height: auto;
+
+  }
+
+  .my-picture {
+    width: fit-content;
+
   }
 
   header {
