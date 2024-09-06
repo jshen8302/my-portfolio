@@ -232,7 +232,7 @@ main {
 .my-picture {
   position: absolute;
   object-fit: cover;
-  width: 150%;
+  width: 100%;
   transform: translateY(20%);
   
 
@@ -310,15 +310,17 @@ main {
 
   .my-picture-container {
     max-width: 80%;
+    max-height: 90%;
 
 
   }
 
   .my-picture {
-    width: 120%;
+    width: 150%;
+    height: 100%;
 
     position: static;
-    height:100%;
+
   
 
   }
