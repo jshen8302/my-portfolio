@@ -227,6 +227,230 @@ nav {
 
 }
 
+/* section 3 - projects */
+.section-3 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -201;
+  position: relative;
+
+}
+
+.projects-section-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+
+  color: white;
+
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  align-items: center;
+
+  padding-top: 13vh;
+  max-width: 60%;
+
+}
+
+.projects-section-title {
+  font-size: 7rem;
+  margin-bottom: 1%;
+
+}
+
+.project-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+
+  
+}
+
+.project-title {
+  
+
+}
+
+.project-title .level-one-text {
+  font-size: 3rem;
+
+}
+
+.project-description .level-two-text {
+  font-size: 1.5rem;
+
+}
+
+.project-description {
+
+}
+
+.project-attributes {
+  display: flex;
+  font-family: 'VT323', Arial;
+  padding: 2% 1%;
+  gap: 1%;
+  font-size: 1.2rem;
+
+
+}
+
+.attribute-bubble {
+  border-radius: 1rem;
+  padding: 5px 12px;
+  background-color: rgb(132,132,245);
+  
+
+
+}
+
+.project-thumbnail-container {
+  width: 100%;
+
+}
+
+.project-thumbnail {
+  width: 100%;
+  
+
+}
+
+/* final section - contact me */
+
+.section-4 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -201;
+  position: relative;
+
+}
+
+.city-background {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/city-bg-1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  z-index: -200;
+
+  position: absolute;
+  
+
+  
+}
+
+.contact-me-section-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  
+
+}
+
+.contact-me-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content:flex-end;
+  padding-top: 20%;
+  height: 100%;
+  max-width: 60%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.contact-me {
+  position: absolute;
+  top: 20%;
+
+}
+
+.contact-me .level-one-text {
+
+}
+
+.div-skyline {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+
+
+}
+
+/* Buildings */
+.div-building-1, .div-building-2, .div-building-3 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Adjust the aspect ratio for each building */
+.div-building-1 {
+  background-color: #1b1c44;
+  height: auto;
+
+
+}
+
+.div-building-2 {
+  background-color: rgb(139, 19, 139);
+  height: auto;
+}
+
+.div-building-3 {
+  background-color: rgb(114, 10, 10);
+  height: auto;
+
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.logo {
+  width: 50%;
+  object-fit: contain;
+}
+
+
+.window-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5%;
+  row-gap: 5%;
+  overflow: hidden;
+  max-width: 1000px;
+
+}
+.window {
+  background-color: #d9d9d9;
+  height:  80px;
+}
 
 
 
@@ -280,6 +504,7 @@ nav {
 
   .level-one-text {
     font-size: 3.0rem;
+    background-color:
   }
   .level-two-text {
     font-size: 1.5rem;
@@ -307,6 +532,14 @@ nav {
   
 
   }
+
+  .contact-me-section {
+  }
+
+  .window {
+    height: 70px;
+  }
+
 
 
   header {
@@ -411,6 +644,10 @@ nav {
     font-size: 1.2rem;
 
   }
+
+  .window {
+    height: 50px;
+  }
 }
 
 /* Mobile phones (portrait) */
@@ -467,6 +704,10 @@ nav {
     font-family: 'VT323', sans-serif;
     font-size: 1.2rem;
 
+  }
+
+  .window {
+    height: 40px;
   }
 
 }
