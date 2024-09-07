@@ -334,6 +334,7 @@ nav {
   align-items: center;
   z-index: -201;
   position: relative;
+  background-color: black;
 
 }
 
@@ -343,10 +344,9 @@ nav {
   background-image: url(../assets/city-bg-1.jpg);
   background-position: center;
   background-attachment: fixed;
-  background-size: auto;
-
+  background-size: cover;
   z-index: -200;
-
+  opacity: 80%;
   position: absolute;
   
 
@@ -702,9 +702,6 @@ nav {
     font-size: 0.6rem;
   }
 
-  .city-background {
-    background-position: scroll;
-  }
 
 
   header {
