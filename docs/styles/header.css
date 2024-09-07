@@ -343,7 +343,7 @@ nav {
   background-image: url(../assets/city-bg-1.jpg);
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
 
   z-index: -200;
 
