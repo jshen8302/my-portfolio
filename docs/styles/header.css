@@ -702,6 +702,10 @@ nav {
     font-size: 0.6rem;
   }
 
+  .city-background {
+    background-position: scroll;
+  }
+
 
   header {
     height: 80px;
